@@ -74,6 +74,11 @@ void printUser(struct User *user){
     printf("\nCidade: %s", user->address.city);
     printf("Pais: %s", user->address.country);
     printf("Estado: %s", user->address.state);
+
+    getchar();
+    fflush(stdin);
+    getchar();
     
+    clearWindow();
   }
 }
